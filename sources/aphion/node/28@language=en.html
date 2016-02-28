@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" xmlns:og="http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" xmlns:og="http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" xmlns:og="http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" xmlns:og="http://ogp.me/ns#"> <!--<![endif]-->
+    <head profile="http://www.w3.org/1999/xhtml/vocab">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="http://cactussoft.ru/node/favicon.ico">
+
+        <!--[if (gte IE 6)&(lte IE 8)]><![endif]-->
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:description" content=" CactusSoft is an international software service company. We set no geographical boundaries for ourselves - most of our work comes from Scandinavia, Russia and the USA, and is executed in Eastern Europe. We are proud to work for well-known companies (Nokia, Danish Broadcasting Corporation, Leo..." />
+<meta property="fb:app_id" content="194800140647074" />
+<title>Software prototyping</title>
+<meta content="Software prototyping" about="/software_prototyping?language=en" property="dc:title" />
+<link rel="shortcut icon" href="http://cactussoft.ru/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta about="/software_prototyping?language=en" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+<meta property="fb:admins" content="100001142703747" />
+<meta property="og:url" content="http://cactussoft.ru/node/28?v1" />
+<link rel="canonical" href="../software_prototyping@language=en.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="28@language=en.html" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="CactusSoft" />
+<meta property="og:title" content="Software prototyping" />
+<meta property="og:image" content="http://cactussoft.ru/themes/cactussoft/img/og_logo.png" />
+                <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_Z_KQyXTcIGmFPRfGZOOTJ1xsEckXlqMhF53CkTgnOVA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_Vn_p7xhZmS8yWWx26P0Cc7Tm0GG2K1gLWEoVrhw5xxg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_IswUwLUYvGuQJJL-2ndCc1SvZTngveUr9yGEyy5aaxY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_CS2Fgnd1HdKly1WHcGfGHsEvMRfo9QeybJnZNooPp04.css" media="all" />
+
+<!--[if lt IE 7]>
+<link type="text/css" rel="stylesheet" href="http://cactussoft.ru/themes/cactussoft/fix-ie.css?nlczfa" media="all" />
+<![endif]-->
+                    <script> var globalLangVar = 'en';</script>
+                    <script>var globalBasePath = '/'</script>
+        <script type="text/javascript" src="http://cactussoft.ru/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://cactussoft.ru/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://cactussoft.ru/misc/drupal.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/vendor/modernizr-2.6.2.min.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/vendor/jquery-1.10.1.min.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/vendor/bootstrap.min.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/vendor/jquery.easing.1.3.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/vendor/jquery-css-transform.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/vendor/jquery-animate-css-rotate-scale.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/vendor/jquery.animateImages.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/vendor/jquery.bxslider.min.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/vendor/jquery.nicescroll.min.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/pageflip.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/vendor/magnific-popup.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/vendor/jquery.quicksand.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/vendor/jquerytoJson.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/jquery.myFilter.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/vendor/fileuploader.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/vendor/extJQForm.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/vendor/extContactForm.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/vendor/jquery.stellar.min.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/vendor/jquery.inview.min.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/parallax.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/nparallax.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/counter.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/smoothscroll.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/vendor/fancybox/jquery.fancybox.pack.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/vendor/jquery.carouFredSel-6.2.1-packed.js?nlczfa"></script>
+<script type="text/javascript" src="http://cactussoft.ru/themes/cactussoft/js/main.js?nlczfa"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"cactussoft","theme_token":"PJ4zfbc5OmIe3rLB0rHDWwlCFKlM4NCc6TICJm4W5rU","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"themes\/cactussoft\/js\/vendor\/modernizr-2.6.2.min.js":1,"themes\/cactussoft\/js\/vendor\/jquery-1.10.1.min.js":1,"themes\/cactussoft\/js\/vendor\/bootstrap.min.js":1,"themes\/cactussoft\/js\/vendor\/jquery.easing.1.3.js":1,"themes\/cactussoft\/js\/vendor\/jquery-css-transform.js":1,"themes\/cactussoft\/js\/vendor\/jquery-animate-css-rotate-scale.js":1,"themes\/cactussoft\/js\/vendor\/jquery.animateImages.js":1,"themes\/cactussoft\/js\/vendor\/jquery.bxslider.min.js":1,"themes\/cactussoft\/js\/vendor\/jquery.nicescroll.min.js":1,"themes\/cactussoft\/js\/pageflip.js":1,"themes\/cactussoft\/js\/vendor\/magnific-popup.js":1,"themes\/cactussoft\/js\/vendor\/jquery.quicksand.js":1,"themes\/cactussoft\/js\/vendor\/jquerytoJson.js":1,"themes\/cactussoft\/js\/jquery.myFilter.js":1,"themes\/cactussoft\/js\/vendor\/fileuploader.js":1,"themes\/cactussoft\/js\/vendor\/extJQForm.js":1,"themes\/cactussoft\/js\/vendor\/extContactForm.js":1,"themes\/cactussoft\/js\/vendor\/jquery.stellar.min.js":1,"themes\/cactussoft\/js\/vendor\/jquery.inview.min.js":1,"themes\/cactussoft\/js\/parallax.js":1,"themes\/cactussoft\/js\/nparallax.js":1,"themes\/cactussoft\/js\/counter.js":1,"themes\/cactussoft\/js\/smoothscroll.js":1,"themes\/cactussoft\/js\/vendor\/fancybox\/jquery.fancybox.pack.js":1,"themes\/cactussoft\/js\/vendor\/jquery.carouFredSel-6.2.1-packed.js":1,"themes\/cactussoft\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/locale\/locale.css":1,"themes\/cactussoft\/css\/bootstrap.min.css":1,"themes\/cactussoft\/css\/magnific-popup.css":1,"themes\/cactussoft\/css\/main.css":1,"themes\/cactussoft\/css\/add.css":1,"themes\/cactussoft\/css\/hovers.css":1,"themes\/cactussoft\/css\/prototyping_page.css":1,"themes\/cactussoft\/css\/reques_quote.css":1,"themes\/cactussoft\/css\/bug_fixes.css":1,"themes\/cactussoft\/fix-ie.css":1}}});
+//--><!]]>
+</script>
+
+        <!--[if lt IE 9]>
+        <script>
+            document.createElement('header');
+            document.createElement('nav');
+            document.createElement('section');
+            document.createElement('article');
+            document.createElement('aside');
+            document.createElement('footer');
+            document.createElement('menu');
+            document.createElement('address');
+        </script>
+        <style>
+            header, nav, section, article, aside, footer, menu, address {
+                display:block;
+            }
+            footer .request { margin: 0; }
+            header {padding-top: 8px;}
+            header .region {padding-top: 8px;}
+        </style>
+        <![endif]-->
+
+        <!--[if IE 8]><style>menu {padding-top: 16px;}</style><![endif]-->
+        <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+        <link href="https://plus.google.com/107532037152524029499" rel="publisher" />
+        <script>
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-41422773-1']);
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-41422773-1', 'cactussoft.biz');
+            ga('send', 'pageview');
+
+        </script>
+    </head>
+    <body class="b-page html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-28 node-type-page" >
+        <div id="skip-link">
+            <a href="28@language=en.html#main-content" class="element-invisible element-focusable">Skip to main content</a>
+        </div>
+                <!--
+
+//-->
+
+
+
+
+<div class="navbar navbar-fixed-top">
+    <div class="b-page_inner">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../index.html">CactusSoft</a>
+            <div class="dropdown dropdown-lang">
+                <a href="28@language=en.html#" class="dropdown-toggle" data-toggle="dropdown">En</a>
+                <ul class="dropdown-menu">
+                                        <li><a href="28@language=en.html">En</a></li>
+                    <li><a href="28@language=ru.html">Ру</a></li>
+                </ul>
+            </div>
+            <div class="navbar-collapse collapse">
+            <div id="mainMenu">  <ul class='nav navbar-nav navbar-right'>
+<li class="dropdown"><a href="../software_services@language=en.html" class="dropdown-toggle">Services<span></span></a><ul class='dropdown-menu'>
+					<li><a href='../mobile_apps_development.html'>Mobile Solutions</a></li>
+					<li><a href='../web_development.html'>Complex Web Solutions</a></li>
+					<li><a href='../game_development.html'>Games</a></li>
+					<li><a href='../dedicated_development_teams.html'>Dedicated Teams</a></li>
+                    <li><a href='../software_prototyping.html'>Software prototyping</a></li>
+				</ul></li><li><a href="../portfolio@language=en.html">Portfolio<span></span></a></li><li><a href="../about_us@language=en.html">About Us<span></span></a></li><li><a href="../careers@language=en.html">Careers<span></span></a></li><li><a href="../news@language=en.html">News<span></span></a></li><li><a href="../contact_us@language=en.html">Contact Us<span></span></a></li>  </ul>
+</div>
+            </div><!--/.navbar-collapse -->
+        </div>
+    </div>
+</div>
+
+<div id="goToTop" class="button button_to-top">
+    <a class="button_to-top_icon" href="28@language=en.html#"></a>
+</div>
+  <div class="region region-content">
+    <!--<div id="block-" class="b-page_content b-page_content__red-line g-clearfix block-">
+  <h2></h2>
+
+  <div></div>
+</div>-->
+<div class="b-page_content b-page_content__red-line g-clearfix"><div id="node-28" class="node">
+
+
+  <div class="content clear-block">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><section class="b-page_content b-page_content__top b-page_content__prototyping" data-type="background" data-speed="2" data-start="0">
+                        <div class="b-page_inner b-page_inner__top">
+                            <div id="promo-text" class="b-info">
+                                <h1 class="b-info_title">Start your app prototype project with us!</h1>
+                                <p class="b-info_text">We develop mobile and web applications prototypes to help our clients validate and test app concepts. It is an economically efficient way to identify the future app’s best advantages and highlight the disadvantages before the full-cycle development project has started.</p>
+                                <button  class="button b-info_button button__blue js-scrollToSlider"onclick="return false;">More info</button >
+                            </div>
+                            <div class="b-feedback b-feedback__about-us">
+                                <h2 class="b-feedback_title b-feedback_title__blue">Get a free quote</h2>
+                                <form class="b-feedback_form" method="POST">
+	<div class="b-feedback_item">
+		<div class="b-feedback_field b-feedback_field__big">
+			<input class="b-feedback_input" type="text" value="" placeholder="NAME*" name="name" >
+		</div>
+	</div>
+	<div class="b-feedback_item">
+		<div class="b-feedback_field b-feedback_field__big">
+			<input class="b-feedback_input" type="email" value="" placeholder="E-MAIL*" name="email">
+		</div>
+	</div>
+	<div class="b-feedback_item">
+		<div class="b-feedback_field b-feedback_field__big">
+			<input class="b-feedback_input" type="text" value="" placeholder="COMPANY" name="company" >
+		</div>
+	</div>
+	<div class="b-feedback_item g-clearfix">
+		<div class="b-feedback_field b-feedback_field__middle g-float">
+			<textarea class="b-feedback_teaxtarea" value="" placeholder="MESSAGE*" name="ta"></textarea>
+		</div>
+		<div class="b-feedback_field b-feedback_field__small g-float">
+			<a class="button button__attach" href="28@language=en.html#" onclick="return false;"><span class="icon"></span>Attach</a>
+		</div>
+		<div class="upload"></div>
+		<div class="attachments"></div>
+	</div>
+	<div class="b-feedback_ctrl">
+		<input class="button button__red b-feedback_button" type="submit" onclick="return false;" value="SEND">
+	</div>
+</form>
+                                <p class="b-feedback_info">
+                                    <i class="b-feedback_text">Describe your project filling in the form or call us at</i>
+                                    <i class="b-feedback_phone">+375 17 237 85 54</i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="promo-arrow"></div>
+                    </section>
+                    <div class="b-region_content b-dev-steps b-dev-steps_prototyping">
+                        <h2 class="b-page_title ">Key benefits of prototyping</h2>
+                        <ul id="prototyping" class="b-page_inner b-infographic b-infographic_prototyping g-clearfix">
+                            <li class="b-infographic_item col-md-4">
+                                <div class="b-infographic_icon b-infographic_icon__dev-step b-infographic_icon__double">
+                                    <div class="b-infographic_icon b-infographic_icon__big b-infographic_icon__t b-infographic_icon__flip"></div>
+                                </div>
+                                <p class="section-descr">
+                                    <strong>Short development time</strong>
+                                    <br>
+                                    Prototypes are quick to create. With a working prototype you can save time and test it in real conditions to figure out the best technical requirements for the actual app.                                </p>
+                            </li>
+                            <li class="b-infographic_item col-md-4">
+                                <div class="b-infographic_icon b-infographic_icon__dev-step b-infographic_icon__double">
+                                    <div class="b-infographic_icon b-infographic_icon__big b-infographic_icon__u b-infographic_icon__flip"></div>
+                                </div>
+                                <p class="section-descr">
+                                    <strong>Pre-launch usability testing</strong>
+                                    <br>
+                                    Test your app prototype with real users. Identify their requirements and understand what they expect from using the application. It’ll do better than documentation and design mockups.                                </p>
+                            </li>
+                            <li class="b-infographic_item col-md-4">
+                                <div class="b-infographic_icon b-infographic_icon__dev-step b-infographic_icon__double">
+                                    <div class="b-infographic_icon b-infographic_icon__big b-infographic_icon__p b-infographic_icon__flip"></div>
+                                </div>
+                                <p class="section-descr">
+                                    <strong>Cost efficiency</strong>
+                                    <br>
+                                    Identify the most and the least important features before starting the full-cycle development. Rethink your priorities and start app development project.                                </p>
+                            </li>
+                        </ul>
+                    </div><!--.b-region_content-->
+                    <div class="b-region_content b-dev-steps b-dev-steps_prototyping b-ready_prototyping">
+                        <h2 class="b-page_title ">WHAT WE CAN HELP YOU WITH</h2>
+                        <div class="ready-develop b-page_inner">
+                            <div class="ready-develop_left">
+                                <div class="ready-develop_x-ray">
+                                    <div class="ready-develop_x-ray_background">
+                                        <div class="device_0"></div>
+                                        <div class="device_1"></div>
+                                        <div class="device_2"></div>
+                                    </div>
+                                    <div class="ready-develop_x-ray_circle">
+                                        <div class="ready-develop_x-ray_circle_wrap">
+                                            <div class="ready-develop_x-ray_circle_wrap_in">
+                                                <div class="ready-develop_x-ray_circle_wrap_in_blocks">
+                                                    <div class="device_0"></div>
+                                                    <div class="device_1"></div>
+                                                    <div class="device_2"></div>
+                                                </div>
+                                            </div>
+                                            <div class="circle_0">
+                                                <div class="red_dot"></div>
+                                            </div>
+                                            <div class="circle_1"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ready-develop_right">
+                                <p class="section-descr">
+                                    <strong>Building Mobile and Web App Prototypes</strong>
+                                    <br>
+                                    <br>
+                                   After assessing the future application's technical requirements, we define the steps of prototype development. 
+We develop a prototype, and then you can test your technology choice, your app’s features set, usability and user experience, security and scalability. With a protorype you can analyze your results and only then start the full-cycle project spending your resources on an app which has already proven to suit your needs.                                </p>
+                            </div>
+                        </div>
+                    </div><!--.b-region_content-->
+                    <div class="b-page_content b-recent-works b-recent-works__main b-recent-works__prototyping">
+                        <div class="b-page_inner">
+                            <div class="b-slider">
+                                <ul id="recent-works-slider" class="b-slider_list">
+ 				 
+				   				   <li class="b-slider_item" data-index="0">
+				       <h2 class="b-slider_title"> Dragon Archer</h2>
+				       <div class="b-slider_item_img-wrap">
+				           <img class="b-slider_image" src="http://cactussoft.ru/themes/cactussoft/img/portfolio/portfolio20.05.2014_15.52_6611111400586728.png" />
+				       </div>
+				       <div class="b-slider_item_text-wrap">	
+                                           <p class="slide-title">Skill-driven 3D Game</p>
+				           <p class="b-slider_discription">Client: Ndoto.tech<br>
+Domain: Games<br>
+Technology: iOS, Unity 3D<br>
+The skill and story driven game developed with Unity 3D technology. Dragon Archer for iOS is possible to install on iPhone, iPad and iPod Touch; it is suitable for iPhone 5 and requires iOS 6.0 or later. The game has 3D first person experience and touch screen bow mechanics. It is suitable for all ages.</p>
+				       </div>
+				       <div class="b-slider_info">
+				           				           				           <a href="https://itunes.apple.com/au/app/dragon-archer/id860487163?mt=8" target="_blank" class="link-external link-appstore"></a>
+				           				           				       </div>
+				   </li>
+				   				   <li class="b-slider_item" data-index="1">
+				       <h2 class="b-slider_title"> Pruffi Graph</h2>
+				       <div class="b-slider_item_img-wrap">
+				           <img class="b-slider_image" src="http://cactussoft.ru/themes/cactussoft/img/portfolio/portfolio26.06.2014_16.18_5582581403785089.png" />
+				       </div>
+				       <div class="b-slider_item_text-wrap">	
+                                           <p class="slide-title">Pruffi Graph</p>
+				           <p class="b-slider_discription">Client: Pruffi<br>
+ Domain: HR<br>
+Technology: PHP<br>
+Pruffi Graph is a web service developed to assist people through identifying their career perspectives. It connects to a person’s social profile on Facebook or Vkontakte and analyzes it according to 17 parameters. 
+</p>
+				       </div>
+				       <div class="b-slider_info">
+				           				           				           				       </div>
+				   </li>
+				   
+                                </ul>
+                                <div class="b-slider_ctrl b-slider_ctrl__circle b-slider_ctrl__circle-prev"></div>
+                                <div class="b-slider_ctrl b-slider_ctrl__circle b-slider_ctrl__circle-next"></div>
+                            </div>
+                        </div><!--.b-page_inner-->
+                        <div class="promo-arrow-top"></div>
+                        <div class="promo-arrow"></div>
+                    </div>
+                    <div class="b-region_content b-dev-steps b-dev-steps_our-benefits">
+                        <h2 class="b-page_title ">Why you should work with us?</h2>
+                        <ul id="our-benefits" class="b-page_inner b-infographic b-infographic_prototyping g-clearfix">
+                            <li class="b-infographic_item col-md-4">
+                                <div class="b-infographic_icon b-infographic_icon__dev-step b-infographic_icon__double">
+                                    <div class="b-infographic_icon b-infographic_icon__big b-infographic_icon__0 b-infographic_icon__flip"></div>
+                                </div>
+                                <p class="section-descr">
+                                    <strong>Experience</strong>
+                                    <br>
+                                    (100+ mobile projects successfully developed)
+                                </p>
+                            </li>
+                            <li class="b-infographic_item col-md-4">
+                                <div class="b-infographic_icon b-infographic_icon__dev-step b-infographic_icon__double">
+                                    <div class="b-infographic_icon b-infographic_icon__big b-infographic_icon__1 b-infographic_icon__flip"></div>
+                                </div>
+                                <p class="section-descr">
+                                    <strong>Expert teams<br/>of skilled developers</strong>
+                                </p>
+                            </li>
+                            <li class="b-infographic_item col-md-4">
+                                <div class="b-infographic_icon b-infographic_icon__dev-step b-infographic_icon__double">
+                                    <div class="b-infographic_icon b-infographic_icon__big b-infographic_icon__2 b-infographic_icon__flip"></div>
+                                </div>
+                                <p class="section-descr">
+                                    <strong>International outreach</strong>
+                                    <br>
+                                    (offices in Europe and USA)
+                                </p>
+                            </li>
+                            <li class="b-infographic_item col-md-4">
+                                <div class="b-infographic_icon b-infographic_icon__dev-step b-infographic_icon__double">
+                                    <div class="b-infographic_icon b-infographic_icon__big b-infographic_icon__3 b-infographic_icon__flip"></div>
+                                </div>
+                                <p class="section-descr">
+                                    <strong>Technological diversity</strong>
+                                    <br>
+                                    (Major mobile platforms and <br>trending web technologies)
+                                </p>
+                            </li>
+                            <li class="b-infographic_item col-md-4">
+                                <div class="b-infographic_icon b-infographic_icon__dev-step b-infographic_icon__double">
+                                    <div class="b-infographic_icon b-infographic_icon__big b-infographic_icon__4 b-infographic_icon__flip"></div>
+                                </div>
+                                <p class="section-descr">
+                                    <strong>Flexible business models</strong>
+                                    <br>
+                                    (fixed price and time&materials models)
+                                </p>
+                            </li>
+                        </ul>
+                    </div><!--.b-region_content-->
+                    <div class="b-region_content b-dev-steps b-dev-steps_prototyping b-dev-steps_prototyping_process b-ready_prototyping">
+                        <h2 class="b-page_title ">prototyping process</h2>
+                        <ul id="teamDevSteps" class="b-infographic">
+                            <li class="b-infographic_item b-infographic_item__dev-step">
+                                <div class="b-infographic_icon b-infographic_icon__dev-step b-infographic_icon__double">
+                                    <div class="b-infographic_line"></div>
+                                    <div class="b-infographic_icon__big b-infographic_icon__0"></div>
+                                </div>
+                                <h4 class="b-infographic_title b-infographic_title__dev-step">Quote request</h4>
+                            </li>
+                            <li class="b-infographic_item b-infographic_item__dev-step">
+                                <div class="b-infographic_icon b-infographic_icon__dev-step b-infographic_icon__double">
+                                    <div class="b-infographic_line"></div>
+                                    <div class="b-infographic_icon__big b-infographic_icon__1"></div>
+                                    <div class="b-infographic_dot"></div>
+                                </div>
+                                <h4 class="b-infographic_title b-infographic_title__dev-step">Project specifics clarification</h4>
+                            </li>
+                            <li class="b-infographic_item b-infographic_item__dev-step">
+                                <div class="b-infographic_icon b-infographic_icon__dev-step b-infographic_icon__double">
+                                    <div class="b-infographic_line"></div>
+                                    <div class="b-infographic_icon__big b-infographic_icon__2"></div>
+                                    <div class="b-infographic_dot"></div>
+                                </div>
+                                <h4 class="b-infographic_title b-infographic_title__dev-step">Prototype development</h4>
+                            </li>
+                            <li class="b-infographic_item b-infographic_item__dev-step">
+                                <div class="b-infographic_icon b-infographic_icon__dev-step b-infographic_icon__double">
+                                    <div class="b-infographic_icon__big b-infographic_icon__3"></div>
+                                    <div class="b-infographic_dot"></div>
+                                </div>
+                                <h4 class="b-infographic_title b-infographic_title__dev-step">Payment</h4>
+                            </li>
+                        </ul>
+                    </div><!--.b-region_content-->
+                    <section class="b-page_content b-request-quote b-request-quote__prototyping">
+                        <a class="button button__red-border button_quote button_quote__content" href="28@language=en.html#" onclick="return false;">Request a Quote</a>
+                        <div class="promo-arrow-top"></div>
+                    </section>
+</div></div></div>  </div>
+<input type="hidden" name="hidden_node" id="hidden_node" value="28">
+</div>
+</div>
+  </div>
+  <div class="region region-footer">
+    
+<footer>
+    <div class="b-page_inner">
+        <div class="row">
+
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col col-sm-5 meet-us">
+                        <h5 class="block-title">Meet Us</h5>
+                        <div class="block-content">
+                                                        <p><strong>in Moscow</strong> January 14-16</p>
+                                                        <p><strong>in Warsaw</strong> February 22-25</p>
+                                                    </div>
+                    </div>
+
+                    <div class="col col-sm-4 col-md-offset-2 site-map">
+                        <h5 class="block-title">Site map</h5>
+                        <div class="block-content">
+                            <a href="../software_services@language=en.html" class="dropdown-link"><span></span>Services <span></span></a>
+                            <!-- <div class="dropdown-block">
+                                <a href="/mobile_apps_development">Mobile Solutions</a>
+                                <a href="/web_development">Complex Web Solutions</a>
+                                <a href="/game_development">Games</a>
+                                <a href="/dedicated_development_teams">Dedicated Teams</a>
+                            </div> -->
+                            <a href="../portfolio@language=en.html"><span></span>Portfolio</a>
+                            <a href="../about_us@language=en.html"><span></span>About us</a>
+                            <a href="../careers@language=en.html"><span></span>Careers</a>
+                            <a href="../news@language=en.html"><span></span>News</a>
+                            <a href="../contact_us@language=en.html"><span></span>Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col col-sm-5 col-md-offset-1 contact-us">
+                        <h5 class="block-title">Contact Us</h5>
+                        <div class="block-content">
+                            <div class="item">
+                                <strong>Minsk, Belarus</strong>
+                                <p><span></span>+375 (17) 237 85 54</p>
+                            </div>
+                            <div class="item">
+                                <strong>The United States</strong>
+                                <p><span></span>+1 (312) 450 26 96</p>
+                            </div>
+                            <div class="item">
+                                <strong>Moscow, Russia</strong>
+                                <p><span></span>+7 (495) 122 05 85</p>
+                            </div>
+                            <div class="item">
+                                <strong>Grodno, Belarus</strong>
+                                <p><span></span>+375 (15) 274 44 29</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-sm-5 col-md-offset-1 social-icons">
+                        <h5 class="block-title">Join Us</h5>
+                        <div class="block-content">
+                            <a href="http://www.facebook.com/pages/CactusSoft/128372313850574" target="_blank" title="Facebook" class="icon fb"></a>
+                            <a href="https://plus.google.com/u/1/+CactussoftBiz/about" target="_blank" title="Google+" class="icon gp"></a>
+                            <a href="http://www.linkedin.com/company/cactussoft?goback=%2Enmp_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1&trk=nmp_rec_act_company_photo" target="_blank" title="LinkedIn" class="icon in"></a>
+                            <button class="button button_quote button_quote__footer">Request a Quote</button>
+                            <div id="requestPopup" class="b-popup b-popup__request">
+                                <h3 class="b-popup_title ">Request a Quote</h3>
+                                <form id="quote" class="b-popup_form ie-pie use-ajax-submit" data-ajax="false" enctype="multipart/form-data" name="form" method="post" action="28@language=en.html#">
+
+                                    <input type="hidden" name="area" id="area">
+
+                                    <div class="b-popup_item">
+                                        <label for="name" class="b-popup_lable">Name<span>*</span></label>
+
+                                        <div class="b-popup_field i-wrap">
+                                            <input id="name" class="b-popup_input" type="text" name="name" placeholder="NAME*" >
+                                        </div>
+                                    </div>
+
+                                    <div class="b-popup_item i-wrap">
+                                        <label for="email" class="b-popup_lable">Email<span>*</span></label>
+
+                                        <div class="b-popup_field i-wrap">
+                                            <input id="email" class="b-popup_input" type="text" name="email" placeholder="EMAIL*" >
+                                        </div>
+                                    </div>
+
+                                    <div class="b-popup_item i-wrap">
+                                        <label for="email" class="b-popup_lable">Company name</label>
+
+                                        <div class="b-popup_field i-wrap">
+                                            <input id="company" class="b-popup_input" type="text" name="company" placeholder="COMPANY NAME" >
+                                        </div>
+                                    </div>
+
+                                    <div class="b-popup_item i-wrap">
+                                        <label for="phone" class="b-popup_lable">Phone</label>
+
+                                        <div class="b-popup_field i-wrap">
+                                            <input id="phone" class="b-popup_input" type="text" name="phone" placeholder="PHONE" >
+                                        </div>
+                                    </div>
+                                    <div class="b-popup_item t-wrap t-wrap__textarea">
+                                        <label for="ta" class="b-popup_lable">Message  <span>*</span></label>
+
+                                        <div class="b-popup_field b-popup_field__textarea">
+                                            <textarea id="ta" class="b-popup_textarea" name="ta" placeholder="MESSAGE *" ></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="b-popup_item b-popup_item__upload">
+
+                                                <!--<span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>-->
+
+                                        <div class="upload"></div>
+                                        <div class="attachments"></div>
+                                    </div>
+                                    <div class="row rowsubmit">
+                                        <div class="buttons button-submit" role="button" >
+
+                                        </div>
+                                    </div>
+                                    <div class="b-popup_ctrl">
+                                        <input class="b-button b-button__red b-popup_button" type="submit" onClick="ga('send', 'event', 'Contact', 'Quote', 'Submit', 1);" value="Submit Request">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="footer-bottom">
+        <div class="b-page_inner">
+            <div class="row">
+                <div class="col col-sm-6">
+                    <div class="row">
+                        <div class="col col-sm-5 copyright"><span></span> © 2007—2016 CactusSoft</div>
+                        <div class="col col-sm-5 col-md-offset-2 lang">
+                                                                                    <span>По-русски</span> <a href="28@language=en.html">English</a>
+                                                    </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 contact-mail">
+                    <span></span> <a href="mailto:info@cactussoft.biz">info@cactussoft.biz</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="b-popup b-popup__message">
+        <div class="b-popup_content">
+            <h3 class="b-popup_title"></h3>
+            <span class="b-popup_contacts"></span>
+        </div>
+        <div class="b-popup_submit">
+            <div class="b-popup_photo">
+                <div class="c1">
+                    <div class="c2">
+                        <img src="28@language=en.html" class="b-popup_image">
+                    </div>
+                </div>
+                <strong class="b-popup_name">Yan Oreshchenkov</strong>
+                <br>
+                <span class="b-popup_info">Chief Technical Officer</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="popup popup-alert" style="display: none">
+    <div class="form ie-pie" style="min-height: 50px;">
+        <div class="close" role="button"></div>
+        <div class="popup-alert-content">
+            <h3 class="popup-alert-title"></h3>
+            <span class="popup-alert-contacts"></span>
+        </div>
+        <div class="row rowsubmit popup-alert-submit">
+            <div class="popup-alert-photo">
+                <div class="c1">
+                    <div class="c2">
+                        <img class="popup-alert-image" src="28@language=en.html" />
+                    </div>
+                </div>
+                <strong class="popup-alert-name"></strong>
+                <br />
+                <span class="popup-alert-info"></span>
+            </div>
+        </div>
+        <div style="clear:both"></div>
+    </div>
+    <div class="back-wrap"><img src="http://cactussoft.ru/themes/cactussoft/img/popup/background.png" alt=""></div>
+</div>
+
+<div class="popup popup-request" style="display: none">
+    <!--  -->
+
+    <div class="form ie-pie">
+        <div class="close" role="button"></div>
+        <h3>Request a Quote</h3>
+        <form action="28@language=en.html#" method="post" name="form" id="quote" enctype="multipart/form-data" class="use-ajax-submit" data-ajax="false">
+            <div class="row">
+                <label for="name">Name <span>*</span></label>
+                <div class="i-wrap">
+                    <input type="text" id="name" name="name" />
+                </div>
+            </div>
+            <div class="row">
+                <label for="email">Email <span>*</span></label>
+                <div class="i-wrap">
+                    <input type="text" id="email" name="email" />
+                </div>
+            </div>
+            <div class="row">
+                <label for="company">Company name</label>
+                <div class="i-wrap">
+                    <input type="text" id="company" name="company" />
+                </div>
+            </div>
+            <div class="row">
+                <label for="phone">Phone</label>
+                <div class="i-wrap">
+                    <input type="text" id="phone" name="phone" />
+                </div>
+            </div>
+
+            <!--div class="row">
+            <label for="file"></label>
+            <div class="f-wrap">
+            Attach file
+            <input name="file" id="file" type="file"/>
+            <input name="file_name" id="file_name" type="hidden"/>
+            </div>
+            </div-->
+            <div class="upload"></div>
+            <div class="attachments"></div>
+            <div class="row rowmsg">
+                <label for="ta">Message <span>*</span></label>
+                <div class="t-wrap">
+                    <textarea id="ta" name="ta"></textarea>
+                </div>
+            </div>
+            <div class="row rowsubmit">
+                <div class="buttons button-submit" role="button" id="sq_button">
+                    Submit Request                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="back-wrap"><img src="http://cactussoft.ru/themes/cactussoft/img/popup/background.png" alt="" />
+    </div>
+</div>
+
+<div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=194800140647074";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+                    <script type="text/javascript">
+            setTimeout(function()
+                {var a=document.createElement("script"); var b=document.getElementsByTagName("script")[0]; a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0022/9331.js?"+Math.floor(new Date().getTime()/3600000); a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}
+                , 1);
+        </script>
+
+        <!-- Google Code for Remarketing Tag -->
+        <!--------------------------------------------------
+        Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+        --------------------------------------------------->
+        <script type="text/javascript">
+            /* <![CDATA[ */
+            var google_conversion_id = 1011712876;
+            var google_custom_params = window.google_tag_params;
+            var google_remarketing_only = true;
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+        </script>
+        <noscript>
+            <div style="display:inline;">
+                <img height="1" width="1" style="border-style:none;" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1011712876/?value=0&amp;guid=ON&amp;script=0"/>
+            </div>
+        </noscript>
+    </body>
+</html>
